@@ -34,7 +34,7 @@ en:
   administrator_notifications:
     captain:
       response_usage_alert:
-        subject: 'Your Captain credits are running low'
+        subject: 'Your Markcopilot credits are running low'
         greeting: 'Hello,'
         usage_html: '%{account_name} has used more than 80% of its AI response credits for the current billing period.'
         balance: '%{consumed} credits have been used, and %{remaining} credits remain.'
@@ -131,7 +131,7 @@ en:
     voice:
       call_already_accepted: '%{agent_name} is already handling the call.'
       announcement_audio_mismatch: 'Generated audio did not match the announcement text. Your saved announcement has not changed. Please try again.'
-      announcement_generation_failed: "Couldn't generate announcement audio. Check your Captain AI configuration and try again. Your saved announcement has not changed."
+      announcement_generation_failed: "Couldn't generate announcement audio. Check your Markcopilot AI configuration and try again. Your saved announcement has not changed."
       call_timed_out: 'The call timed out before you could join.'
       invalid_hold: "Couldn't update the call. Please try again."
       not_handling_agent: 'Only the agent on the call can hold or resume it.'
@@ -528,8 +528,8 @@ en:
       attachment_link_title: 'Conversation (#%{conversation_id}) with %{name}'
     notion:
       name: 'Notion'
-      short_description: 'Integrate databases, documents and pages directly with Captain.'
-      description: 'Connect your Notion workspace to enable Captain to access and generate intelligent responses using content from your databases, documents, and pages to provide more contextual customer support.'
+      short_description: 'Integrate databases, documents and pages directly with Markcopilot.'
+      description: 'Connect your Notion workspace to enable Markcopilot to access and generate intelligent responses using content from your databases, documents, and pages to provide more contextual customer support.'
     shopify:
       name: 'Shopify'
       short_description: 'Access order details and customer data from your Shopify store.'
@@ -557,9 +557,9 @@ en:
     copilot_error: 'Please connect an assistant to this inbox to use Copilot'
     copilot_limit: 'You are out of Copilot credits. You can buy more credits from the billing section.'
     copilot_workflows_disabled: 'Copilot workflows are turned off for this account.'
-    upgrade: 'Upgrade your plan to enable Captain AI'
-    disabled: 'Captain AI is disabled for this account.'
-    api_key_missing: 'Captain AI API key is not configured.'
+    upgrade: 'Upgrade your plan to enable Markcopilot AI'
+    disabled: 'Markcopilot AI is disabled for this account.'
+    api_key_missing: 'Markcopilot AI API key is not configured.'
     copilot:
       using_tool: 'Using tool %{function_name}'
       approval_superseded: 'The agent sent a new message instead of approving this change.'
@@ -652,9 +652,9 @@ en:
         duplicate: 'cannot list the same tool twice'
         invalid_selection: 'Each tool selection must be an object with the tool name, and its settings must be an object'
         missing: 'The server no longer offers %{tool}.'
-        name_clash: 'Captain cannot tell these tools apart: %{names}. Select only one of them.'
+        name_clash: 'Markcopilot cannot tell these tools apart: %{names}. Select only one of them.'
     tools_manifest:
-      invalid_source: 'Enter a toolset from the Captain tools catalog as chatwoot/tools/folder'
+      invalid_source: 'Enter a toolset from the Markcopilot tools catalog as chatwoot/tools/folder'
       invalid_configuration: 'Invalid configuration'
       disabled: 'Installing tools from a manifest is not enabled'
   public_portal:
@@ -786,7 +786,7 @@ en:
     analytics:
       invalid_configuration: 'Invalid analytics configuration'
     articles:
-      captain_not_available: 'Translation requires Captain to be enabled for this account'
+      captain_not_available: 'Translation requires Markcopilot to be enabled for this account'
       cannot_overwrite_original: "Can't translate into the original article's language. Edit the original directly."
       locale_not_available: 'Locale not available in this portal'
       category_not_found: 'Category not found in this portal'
@@ -846,7 +846,7 @@ en:
       suspension_history: 'Suspension history'
       custom_attributes: 'Custom attributes'
       manually_managed_features: 'Manually managed features'
-      captain_models: 'Captain models'
+      captain_models: 'Markcopilot models'
       add_user: 'Add a user to this account'
       seed_data: 'Generate seed data'
       reset_cache: 'Reset frontend cache'

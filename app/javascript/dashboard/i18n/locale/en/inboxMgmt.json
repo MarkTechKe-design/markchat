@@ -812,7 +812,7 @@
       "OPTIONS": {
         "INBOUND": "Allow incoming calls to this number; when off, they're declined but agents can still call out",
         "RECORDING": "Record calls and attach the recording to the conversation",
-        "TRANSCRIPTION": "Transcribe call recordings into text using Captain"
+        "TRANSCRIPTION": "Transcribe call recordings into text using Markcopilot"
       },
       "INBOUND": {
         "LABEL": "Allow incoming calls",
@@ -845,10 +845,10 @@
       },
       "TRANSCRIPTION": {
         "LABEL": "Transcribe recordings",
-        "DESCRIPTION": "Turn each recording into a text transcript. Uses Captain and requires audio transcription to be enabled for the account."
+        "DESCRIPTION": "Turn each recording into a text transcript. Uses Markcopilot and requires audio transcription to be enabled for the account."
       },
       "ANNOUNCEMENT": {
-        "TWILIO_HELP": "Saving generates the spoken announcement using one Captain response credit. You can listen to the saved audio below.",
+        "TWILIO_HELP": "Saving generates the spoken announcement using one Markcopilot response credit. You can listen to the saved audio below.",
         "READ_BY_TWILIO": "Without saved audio, Twilio reads the announcement text aloud.",
         "ACTIVE": "Current announcement",
         "SAVE": "Save announcement"

@@ -1,0 +1,67 @@
+/* ==========================================================================
+  MarkChat Theme: Executive Slate SaaS (Clean Contrast & Polished Bubbles)
+  ========================================================================== */
+:root,
+html,
+body,
+#app {
+  --color-primary: #2563eb !important;
+  --color-primary-dark: #1d4ed8 !important;
+  --color-primary-light: #3b82f6 !important;
+  --n-brand: #2563eb !important;
+  --n-solid-blue: #2563eb !important;
+}
+
+/* 1. Inbound Customer Message (Crisp Slate Gray) */
+.left-bubble,
+.message-bubble-container .left-bubble {
+  background-color: #f1f5f9 !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  color: #0f172a !important;
+}
+
+.left-bubble *,
+.message-bubble-container .left-bubble * {
+  color: #0f172a !important;
+}
+
+/* 2. Outbound Agent Message (Vibrant Blue with Crisp White Text) */
+.right-bubble:not(.bg-n-solid-amber),
+.message-bubble-container .right-bubble:not(.bg-n-solid-amber) {
+  background-color: #2563eb !important;
+  border-radius: 12px !important;
+  color: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(37, 99, 235, 0.2) !important;
+}
+
+.right-bubble:not(.bg-n-solid-amber) *,
+.message-bubble-container .right-bubble:not(.bg-n-solid-amber) * {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
+
+.right-bubble:not(.bg-n-solid-amber) time,
+.message-bubble-container .right-bubble:not(.bg-n-solid-amber) time {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+/* 3. Private Internal Note (Warm Amber) */
+.right-bubble.bg-n-solid-amber,
+.message-bubble-container .right-bubble.bg-n-solid-amber {
+  background-color: #fffbeb !important;
+  border: 1px solid #fde68a !important;
+  border-radius: 12px !important;
+}
+
+.right-bubble.bg-n-solid-amber *,
+.message-bubble-container .right-bubble.bg-n-solid-amber * {
+  color: #92400e !important;
+}
+
+/* 4. Conversation Card Item Hover & Selection */
+.conversation.active,
+.conversation.selected {
+  border-left: 3px solid #2563eb !important;
+  background-color: #ffffff !important;
+}

@@ -144,8 +144,8 @@
     "COVERAGE_HELP": "This range includes periods that were not fully checked. Counts may be incomplete.",
     "REFRESHED": "Last refreshed at {time}. Updates appear automatically.",
     "USAGE": {
-      "LIMIT_REACHED": "This account has used its {limit} AI classification calls for this month. Monitors, automation Captain conditions, and label and priority suggestions share this allowance.",
-      "RESETS": "Monitor evaluations and previews, automation Captain conditions, and label and priority suggestions are unavailable until {time}. Existing results remain available.",
+      "LIMIT_REACHED": "This account has used its {limit} AI classification calls for this month. Monitors, automation Markcopilot conditions, and label and priority suggestions share this allowance.",
+      "RESETS": "Monitor evaluations and previews, automation Markcopilot conditions, and label and priority suggestions are unavailable until {time}. Existing results remain available.",
       "REACHED_AT": "Limit reached on {time}."
     },
     "STATES": {
