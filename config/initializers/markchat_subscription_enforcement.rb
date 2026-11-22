@@ -212,4 +212,35 @@ Rails.application.config.after_initialize do
       end
     end
   end
+  # ==============================================================================
+  # 8. INTERNAL WEBHOOK SSRF ALLOWLIST: Permit local SMS Reseller Gateway (port 5100)
+  # ==============================================================================
+  if defined?(SsrfFilter)
+    SsrfFilter.singleton_class.class_eval do
+      %i[get post put patch delete].each do |verb|
+        next unless method_defined?(verb)
+
+        orig = :"upstream_#{verb}"
+        alias_method orig, verb unless method_defined?(orig)
+
+        define_method(verb) do |url, options = {}, &block|
+          uri = URI.parse(url.to_s)
+          if %w[host.docker.internal localhost 127.0.0.1].include?(uri.host.to_s.downcase)
+            http = Net::HTTP.new(uri.host, uri.port)
+            http.open_timeout = options[:open_timeout] || 5
+            http.read_timeout = options[:read_timeout] || 10
+            klass = Net::HTTP.const_get(verb.to_s.capitalize)
+            req = klass.new(uri.request_uri)
+            (options[:headers] || {}).each { |k, v| req[k.to_s] = v.to_s }
+            req.body = options[:body] if options[:body]
+            res = http.request(req)
+            block&.call(res)
+            res
+          else
+            send(orig, url, options, &block)
+          end
+        end
+      end
+    end
+  end
 end
