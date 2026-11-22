@@ -124,10 +124,10 @@
     "SEARCH_PLACEHOLDER": "Search integrations...",
     "NO_RESULTS": "No integrations found matching your search",
     "CAPTAIN": {
-      "DISABLED": "Markcopilot is not enabled on your account.",
+      "DISABLED": "Captain is not enabled on your account.",
       "CLICK_HERE_TO_CONFIGURE": "Click here to configure",
-      "LOADING_CONSOLE": "Loading Markcopilot Console...",
-      "FAILED_TO_LOAD_CONSOLE": "Failed to load Markcopilot Console. Please refresh and try again."
+      "LOADING_CONSOLE": "Loading Captain Console...",
+      "FAILED_TO_LOAD_CONSOLE": "Failed to load Captain Console. Please refresh and try again."
     },
     "WEBHOOK": {
       "SUBSCRIBED_EVENTS": "Subscribed Events",
@@ -530,7 +530,7 @@
         "PROJECT": "Google Cloud project",
         "SERVICE": "Translation service",
         "SERVICE_GOOGLE": "Google Translate handles all translation in your conversations. When auto-translate is on, it translates incoming messages into each agent's language and sends replies in the customer's language. Agents also use it when they translate a message from its menu.",
-        "SERVICE_OTHER": "Markcopilot is selected as your translation service, so Google Translate isn't used right now. Auto-translate and the Translate action on messages both go through Markcopilot. Switch the service to Google Translate to use this integration instead.",
+        "SERVICE_OTHER": "Captain is selected as your translation service, so Google Translate isn't used right now. Auto-translate and the Translate action on messages both go through Captain. Switch the service to Google Translate to use this integration instead.",
         "CHANGE": "Change"
       }
     },
@@ -549,7 +549,7 @@
     "OVERVIEW": {
       "HEADER": "Overview",
       "WELCOME": {
-        "LABEL": "Markcopilot summary",
+        "LABEL": "Captain summary",
         "LOADING": "Generating summary…"
       },
       "INBOX_BANNER": {
@@ -573,29 +573,29 @@
       "METRICS": {
         "HANDLED": {
           "LABEL": "Conversations handled",
-          "HINT": "Conversations where Markcopilot replied to the customer or handed the conversation to your team."
+          "HINT": "Conversations where Captain replied to the customer or handed the conversation to your team."
         },
         "AUTO_RESOLUTION": {
           "LABEL": "Auto-resolution rate",
-          "HINT": "The share of handled conversations Markcopilot resolved without help from your team. Higher means Markcopilot resolved more on its own."
+          "HINT": "The share of handled conversations Captain resolved without help from your team. Higher means Captain resolved more on its own."
         },
         "HANDOFF": {
           "LABEL": "Handoff rate",
-          "HINT": "The share of handled conversations Markcopilot passed to your team. Lower means fewer conversations needed an agent."
+          "HINT": "The share of handled conversations Captain passed to your team. Lower means fewer conversations needed an agent."
         },
         "HOURS_SAVED": {
           "LABEL": "Time saved",
-          "HINT": "An estimate of how much agent reply time Markcopilot saved.",
-          "NOTE": "Based on two minutes saved for each public Markcopilot reply."
+          "HINT": "An estimate of how much agent reply time Captain saved.",
+          "NOTE": "Based on two minutes saved for each public Captain reply."
         },
         "REOPEN": {
           "LABEL": "Reopen rate",
-          "HINT": "The share of Markcopilot-resolved conversations that customers returned to later.",
+          "HINT": "The share of Captain-resolved conversations that customers returned to later.",
           "NOTE": "Lower means more resolutions stayed resolved."
         },
         "DEPTH": {
           "LABEL": "Messages / conversation",
-          "HINT": "The average number of replies Markcopilot sent in each conversation it handled.",
+          "HINT": "The average number of replies Captain sent in each conversation it handled.",
           "NOTE": "A lower number can mean quicker answers, but complex questions may need more replies."
         }
       },
@@ -614,8 +614,8 @@
       },
       "LINKS": {
         "DOCS": {
-          "TITLE": "Markcopilot docs",
-          "DESCRIPTION": "Guides and how-tos for Markcopilot"
+          "TITLE": "Captain docs",
+          "DESCRIPTION": "Guides and how-tos for Captain"
         },
         "PLAYGROUND": {
           "TITLE": "Playground",
@@ -628,17 +628,17 @@
       },
       "V2": {
         "DRILLDOWN": {
-          "HANDLED": "Episodes where Markcopilot participated during the selected period.",
-          "RESOLVED": "Episodes resolved by Markcopilot without a handoff or human reply before resolution.",
-          "HANDED_OFF": "Episodes handed off after Markcopilot participated.",
-          "REOPENED": "Markcopilot-resolved episodes that subsequently reopened.",
-          "DURABLE": "Markcopilot-resolved episodes that remained closed for at least seven days.",
-          "CLOSED_WITH_TEAM": "Episodes where Markcopilot participated but neither resolved autonomously nor handed off.",
-          "REOPENED_WITHIN_7_DAYS": "Markcopilot-resolved episodes that reopened within seven days.",
-          "STAYED_CLOSED": "Markcopilot-resolved episodes with no reopen recorded within seven days. Recent resolutions are included.",
+          "HANDLED": "Episodes where Captain participated during the selected period.",
+          "RESOLVED": "Episodes resolved by Captain without a handoff or human reply before resolution.",
+          "HANDED_OFF": "Episodes handed off after Captain participated.",
+          "REOPENED": "Captain-resolved episodes that subsequently reopened.",
+          "DURABLE": "Captain-resolved episodes that remained closed for at least seven days.",
+          "CLOSED_WITH_TEAM": "Episodes where Captain participated but neither resolved autonomously nor handed off.",
+          "REOPENED_WITHIN_7_DAYS": "Captain-resolved episodes that reopened within seven days.",
+          "STAYED_CLOSED": "Captain-resolved episodes with no reopen recorded within seven days. Recent resolutions are included.",
           "HANDOFF_REASON": "Episodes handed off for this reason: {reason}.",
           "COUNT": "No episodes | 1 episode | {count} episodes",
-          "EPISODES_HINT": "A conversation can appear more than once if Markcopilot handled it in separate episodes. Episodes are grouped by when they started.",
+          "EPISODES_HINT": "A conversation can appear more than once if Captain handled it in separate episodes. Episodes are grouped by when they started.",
           "STARTED_AT": "Episode started {time}",
           "RETRY": "Try again"
         },
@@ -646,7 +646,7 @@
         "SUMMARY": {
           "GREETING": "Hello, {name}!",
           "DEFAULT_NAME": "there",
-          "EMPTY": "Markcopilot's performance summary will appear here when enough activity is available.",
+          "EMPTY": "Captain's performance summary will appear here when enough activity is available.",
           "PREVIOUS": "Previous summary point",
           "NEXT": "Next summary point"
         },
@@ -660,14 +660,14 @@
             "LABEL": "Saved in agent effort and time"
           },
           "DURABLE": {
-            "LABEL": "Markcopilot resolutions remained closed",
+            "LABEL": "Captain resolutions remained closed",
             "NOT_APPLICABLE_HINT": "No resolutions in this period have seven days of follow-up yet. Durability is unavailable.",
-            "HINT": "The share of Markcopilot-resolved conversations that were still closed seven days later.",
+            "HINT": "The share of Captain-resolved conversations that were still closed seven days later.",
             "NOTE": "Only resolutions old enough to observe for seven days are included."
           },
           "MEDIAN_RESOLUTION": {
             "LABEL": "Median resolution time",
-            "HINT": "The typical time from when a conversation reached Markcopilot until it was resolved.",
+            "HINT": "The typical time from when a conversation reached Captain until it was resolved.",
             "NOTE": "Lower means customers generally got resolved sooner."
           },
           "DEPTH": {
@@ -676,10 +676,10 @@
           "OF_TOTAL": "of {total}"
         },
         "RESOLUTION_FLOW": {
-          "ARIA_LABEL": "Flow of handled conversations through Markcopilot and team outcomes",
+          "ARIA_LABEL": "Flow of handled conversations through Captain and team outcomes",
           "NODES": {
             "HANDLED": "Handled",
-            "RESOLVED_BY_CAPTAIN": "Resolved by Markcopilot",
+            "RESOLVED_BY_CAPTAIN": "Resolved by Captain",
             "HANDED_OFF": "Handed off",
             "CLOSED_WITH_TEAM": "Closed with team",
             "REOPENED": "Reopened in 7d",
@@ -709,16 +709,16 @@
           "CURRENT_PERIOD": "Current period",
           "PREVIOUS_PERIOD": "Previous period",
           "HANDLED": "Handled",
-          "RESOLVED": "Resolved by Markcopilot",
-          "ARIA_LABEL": "Handled and Markcopilot-resolved conversations by reporting period",
-          "RATE_ARIA_LABEL": "Current and previous Markcopilot resolution rates"
+          "RESOLVED": "Resolved by Captain",
+          "ARIA_LABEL": "Handled and Captain-resolved conversations by reporting period",
+          "RATE_ARIA_LABEL": "Current and previous Captain resolution rates"
         },
         "CSAT": {
-          "TITLE": "Markcopilot CSAT",
-          "AUTONOMOUS": "Markcopilot-resolved conversations",
-          "AUTONOMOUS_HINT": "The average customer rating for conversations Markcopilot resolved without help from your team.",
-          "ASSISTED": "Markcopilot-assisted conversations",
-          "ASSISTED_HINT": "The average customer rating when Markcopilot helped before your team resolved the conversation.",
+          "TITLE": "Captain CSAT",
+          "AUTONOMOUS": "Captain-resolved conversations",
+          "AUTONOMOUS_HINT": "The average customer rating for conversations Captain resolved without help from your team.",
+          "ASSISTED": "Captain-assisted conversations",
+          "ASSISTED_HINT": "The average customer rating when Captain helped before your team resolved the conversation.",
           "VS_HUMANS": "{value} vs humans"
         },
         "USAGE": {
@@ -744,7 +744,7 @@
     },
     "COPILOT": {
       "TITLE": "Copilot",
-      "AVATAR_LABEL": "Markcopilot",
+      "AVATAR_LABEL": "Captain",
       "TRY_THESE_PROMPTS": "Try these prompts",
       "MORE_PROMPTS": "More questions",
       "DISCLAIMER": "Copilot can make mistakes. Check important info.",
@@ -845,8 +845,8 @@
           "CONTENT": "Find conversations resolved in the last 7 days that have no labels, and suggest one of our existing labels for each. Ask me before adding any labels."
         },
         "CAPTAIN_HANDOFFS": {
-          "LABEL": "How many conversations did Markcopilot hand off this week, and why?",
-          "CONTENT": "Which conversations did Markcopilot hand off to a human in the last 7 days? Read them and group the reasons it could not finish on its own, with an example for each."
+          "LABEL": "How many conversations did Captain hand off this week, and why?",
+          "CONTENT": "Which conversations did Captain hand off to a human in the last 7 days? Read them and group the reasons it could not finish on its own, with an example for each."
         }
       },
       "APPROVAL": {
@@ -921,9 +921,9 @@
       "SEND_MESSAGE": "Send message",
       "HEADER": "Playground",
       "DESCRIPTION": "Use this playground to send messages to your assistant and check if it responds accurately, quickly, and in the tone you expect.",
-      "CREDIT_NOTE": "Messages sent here will count toward your Markcopilot credits.",
+      "CREDIT_NOTE": "Messages sent here will count toward your Captain credits.",
       "CLEAR_CONVERSATION": "Clear conversation",
-      "RESPONSE_ERROR": "Markcopilot could not complete this test run. Review the setup and try again.",
+      "RESPONSE_ERROR": "Captain could not complete this test run. Review the setup and try again.",
       "SETUP": {
         "TITLE": "Test setup",
         "DESCRIPTION": "Changes here apply only to this playground session unless you explicitly save an item.",
@@ -978,7 +978,7 @@
         },
         "KNOWLEDGE": {
           "TAB_TITLE": "Knowledge",
-          "AVAILABLE_TITLE": "Knowledge available to Markcopilot",
+          "AVAILABLE_TITLE": "Knowledge available to Captain",
           "AVAILABLE_DESCRIPTION": "Saved sources are summarized here and managed outside the playground.",
           "DOCUMENTS": "Documents",
           "FAQS": "FAQs",
@@ -1007,20 +1007,20 @@
       }
     },
     "PAYWALL": {
-      "TITLE": "Upgrade to use Markcopilot AI",
-      "AVAILABLE_ON": "Markcopilot is not available on the free plan.",
+      "TITLE": "Upgrade to use Captain AI",
+      "AVAILABLE_ON": "Captain is not available on the free plan.",
       "UPGRADE_PROMPT": "Upgrade your plan to get access to our assistants, copilot and more.",
       "UPGRADE_NOW": "Upgrade now",
       "CANCEL_ANYTIME": "You can change or cancel your plan anytime"
     },
     "ENTERPRISE_PAYWALL": {
-      "AVAILABLE_ON": "Markcopilot AI is only available in the Enterprise plans.",
+      "AVAILABLE_ON": "Captain AI is only available in the Enterprise plans.",
       "UPGRADE_PROMPT": "Upgrade your plan to get access to our assistants, copilot and more.",
       "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
     },
     "BANNER": {
-      "RESPONSES": "You've used over 80% of your response limit. To continue using Markcopilot AI, please upgrade.",
-      "DOCUMENTS": "Document limit reached. Upgrade to continue using Markcopilot AI."
+      "RESPONSES": "You've used over 80% of your response limit. To continue using Captain AI, please upgrade.",
+      "DOCUMENTS": "Document limit reached. Upgrade to continue using Captain AI."
     },
     "FORM": {
       "CANCEL": "Cancel",
@@ -1090,28 +1090,28 @@
         },
         "INACTIVITY_RESOLUTION": {
           "TITLE": "When customers stop replying",
-          "DESCRIPTION": "Choose how Markcopilot handles the conversation.",
+          "DESCRIPTION": "Choose how Captain handles the conversation.",
           "MODE_LABEL": "Action when the customer stops replying",
           "REVIEW_AFTER": "Review after",
           "RESOLVE_AFTER": "Resolve after",
-          "ALWAYS_WARNING": "Markcopilot will resolve every conversation after the selected time without reviewing it. Some conversations that still need help may be closed.",
+          "ALWAYS_WARNING": "Captain will resolve every conversation after the selected time without reviewing it. Some conversations that still need help may be closed.",
           "PENDING_INFO": "The conversation remains pending until the customer replies.",
           "RESOLUTION_MESSAGE": {
             "TITLE": "Send a message when resolving",
-            "DESCRIPTION": "Markcopilot sends this closing message before it resolves the conversation."
+            "DESCRIPTION": "Captain sends this closing message before it resolves the conversation."
           },
           "MODES": {
             "DISABLED": {
               "LABEL": "Wait for the customer",
-              "DESCRIPTION": "Markcopilot does not resolve the conversation. Markcopilot can still hand it off if the customer asks."
+              "DESCRIPTION": "Captain does not resolve the conversation. Captain can still hand it off if the customer asks."
             },
             "LEGACY": {
               "LABEL": "Always resolve",
-              "DESCRIPTION": "Markcopilot resolves every conversation after the selected time."
+              "DESCRIPTION": "Captain resolves every conversation after the selected time."
             },
             "EVALUATED": {
-              "LABEL": "Let Markcopilot review it (recommended)",
-              "DESCRIPTION": "Markcopilot decides whether to resolve the conversation or hand it off."
+              "LABEL": "Let Captain review it (recommended)",
+              "DESCRIPTION": "Captain decides whether to resolve the conversation or hand it off."
             }
           },
           "DURATION_HOURS_ARIA_LABEL": "Hours before action",
@@ -1133,11 +1133,11 @@
         "AUDIENCE": {
           "EVERYONE": {
             "LABEL": "Everyone",
-            "DESC": "Markcopilot responds to every conversation in connected inboxes."
+            "DESC": "Captain responds to every conversation in connected inboxes."
           },
           "SPECIFIC": {
             "LABEL": "Specific audience",
-            "DESC": "Markcopilot responds only to customers who match the conditions below."
+            "DESC": "Captain responds only to customers who match the conditions below."
           },
           "ADD_CONDITION": "Add condition",
           "ADD_GROUP": "Add condition group",
@@ -1160,15 +1160,15 @@
         "SCHEDULE": {
           "ALWAYS": {
             "LABEL": "Anytime",
-            "DESC": "Markcopilot responds to every conversation, regardless of time."
+            "DESC": "Captain responds to every conversation, regardless of time."
           },
           "BUSINESS_HOURS": {
             "LABEL": "During business hours",
-            "DESC": "Markcopilot responds only within each inbox's business hours."
+            "DESC": "Captain responds only within each inbox's business hours."
           },
           "OUTSIDE_BUSINESS_HOURS": {
             "LABEL": "Outside business hours",
-            "DESC": "Markcopilot responds only when each inbox is closed."
+            "DESC": "Captain responds only when each inbox is closed."
           },
           "HINT": "Inboxes without business hours configured are always covered."
         }
@@ -1188,7 +1188,7 @@
         "SYSTEM_SETTINGS": {
           "TITLE": "System settings",
           "DESCRIPTION": "Customize what the assistant says when ending a conversation or transferring to a human.",
-          "DESCRIPTION_V2": "Manage what Markcopilot does when customers stop replying and set the handoff message."
+          "DESCRIPTION_V2": "Manage what Captain does when customers stop replying and set the handoff message."
         },
         "AUDIENCE": {
           "TITLE": "Audience",
@@ -1196,7 +1196,7 @@
         },
         "SCHEDULE": {
           "TITLE": "Schedule",
-          "DESCRIPTION": "Choose when Markcopilot replies. Outside this window, conversations are handed to your team."
+          "DESCRIPTION": "Choose when Captain replies. Outside this window, conversations are handed to your team."
         },
         "CONTROL_ITEMS": {
           "TITLE": "The Fun Stuff",
@@ -1227,8 +1227,8 @@
         "TITLE": "No assistants available",
         "SUBTITLE": "Create an assistant to provide quick and accurate responses to your users. It can learn from your help articles and past conversations.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Markcopilot Assistant",
-          "NOTE": "Markcopilot Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
+          "TITLE": "Captain Assistant",
+          "NOTE": "Captain Assistant engages directly with customers, learns from your help docs and past conversations, and delivers instant, accurate responses. It handles the initial queries, providing quick resolutions before  transferring to an agent when needed."
         }
       },
       "GUARDRAILS": {
@@ -1534,8 +1534,8 @@
         "FILTERED_TITLE": "No matching documents",
         "FILTERED_SUBTITLE": "Try changing the source, status, or search term.",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Markcopilot Document",
-          "NOTE": "A document in Markcopilot serves as a knowledge resource for the assistant. By connecting your help center or guides, Markcopilot can analyze the content and provide accurate responses for customer inquiries."
+          "TITLE": "Captain Document",
+          "NOTE": "A document in Captain serves as a knowledge resource for the assistant. By connecting your help center or guides, Captain can analyze the content and provide accurate responses for customer inquiries."
         }
       }
     },
@@ -1564,7 +1564,7 @@
         "DESCRIPTION": "Tools you define yourself. Each one calls an API endpoint you configure."
       },
       "MCP_SERVERS": {
-        "DESCRIPTION": "MCP servers connected to this assistant, and the tools Markcopilot can use from each."
+        "DESCRIPTION": "MCP servers connected to this assistant, and the tools Captain can use from each."
       }
     },
     "CUSTOM_TOOLS": {
@@ -1572,10 +1572,10 @@
       "ADD_NEW": "Create a new tool",
       "CATALOG": {
         "BUTTON": "Tools Catalog",
-        "DESCRIPTION": "Browse toolsets from the Markcopilot tools catalog and install them on this assistant.",
+        "DESCRIPTION": "Browse toolsets from the Captain tools catalog and install them on this assistant.",
         "ALL": "All",
         "EMPTY": "No toolsets in this category yet.",
-        "LOAD_ERROR": "Could not load the tools catalog. Check the catalog URL in the Markcopilot settings.",
+        "LOAD_ERROR": "Could not load the tools catalog. Check the catalog URL in the Captain settings.",
         "TOOL_COUNT": "{n} tool | {n} tools",
         "VERSION": "v{version}",
         "UPDATED": "Updated {time}",
@@ -1595,7 +1595,7 @@
       },
       "INSTALL_MANIFEST": {
         "TITLE": "Install a toolset",
-        "DESCRIPTION": "Install a toolset from the Markcopilot tools catalog.",
+        "DESCRIPTION": "Install a toolset from the Captain tools catalog.",
         "VERSION_LABEL": "v{version} · {revision}",
         "UPDATE_NOTE": "A different version is installed. Updating replaces its tools and keeps whether each one is enabled. Enter the secrets again.",
         "TOOLS_LABEL": "Tools",
@@ -1673,14 +1673,14 @@
         "ERROR_MESSAGE": "Failed to delete custom tool"
       },
       "PAYWALL": {
-        "TITLE": "Upgrade to use tools with Markcopilot",
-        "AVAILABLE_ON": "Markcopilot Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
+        "TITLE": "Upgrade to use tools with Captain",
+        "AVAILABLE_ON": "Captain Tools are only available in Business and Enterprise plans. Please upgrade to Business plan to use the feature.",
         "UPGRADE_PROMPT": "",
         "UPGRADE_NOW": "Open billing",
         "CANCEL_ANYTIME": ""
       },
       "ENTERPRISE_PAYWALL": {
-        "AVAILABLE_ON": "Markcopilot Tools are only available in the paid plans.",
+        "AVAILABLE_ON": "Captain Tools are only available in the paid plans.",
         "UPGRADE_PROMPT": "Please upgrade to a paid plan to use this feature.",
         "ASK_ADMIN": "Please reach out to your administrator for the upgrade."
       },
@@ -1714,7 +1714,7 @@
         },
         "EMAIL_VERIFICATION": {
           "LABEL": "Require email verification",
-          "DESCRIPTION": "Markcopilot can use this tool only after the customer verifies their email with a one-time code.",
+          "DESCRIPTION": "Captain can use this tool only after the customer verifies their email with a one-time code.",
           "IMPLIED": "A parameter takes the customer's verified email, so email verification is always required."
         },
         "AUTH_TYPES": {
@@ -1785,7 +1785,7 @@
           "ADD": "Add verified email",
           "EMAIL": "Contact email",
           "EMAIL_DESCRIPTION": "The contact's verified email address",
-          "HELP": "Filled by Chatwoot from the email the contact confirmed with a one-time code. Markcopilot cannot see or change it in customer conversations."
+          "HELP": "Filled by Chatwoot from the email the contact confirmed with a one-time code. Captain cannot see or change it in customer conversations."
         },
         "REQUEST_TEMPLATE": {
           "LABEL": "Request Body Template (Optional)",
@@ -1805,7 +1805,7 @@
       "CONNECT": "Connect server",
       "EMPTY_STATE": {
         "TITLE": "No MCP servers yet",
-        "SUBTITLE": "Connect an MCP server and choose which of its tools Markcopilot can use in conversations."
+        "SUBTITLE": "Connect an MCP server and choose which of its tools Captain can use in conversations."
       },
       "LOAD_ERROR": "Could not load the MCP servers.",
       "STATUS": {
@@ -1838,7 +1838,7 @@
         "ERROR": "Could not update the token."
       },
       "SIGN_IN": {
-        "SUCCESS": "Signed in to the server. Choose the tools Markcopilot can use.",
+        "SUCCESS": "Signed in to the server. Choose the tools Captain can use.",
         "FAILED": "Could not sign in to the server. Try again.",
         "ERROR": "Could not start the sign-in.",
         "OPENING_TITLE": "Opening the sign-in for {name}",
@@ -1846,7 +1846,7 @@
       },
       "DELETE": {
         "TITLE": "Remove {name}?",
-        "DESCRIPTION": "Markcopilot stops using the tools of this server. You can connect it again later.",
+        "DESCRIPTION": "Captain stops using the tools of this server. You can connect it again later.",
         "CONFIRM": "Remove",
         "SUCCESS": "Server removed.",
         "ERROR": "Could not remove the server."
@@ -1875,22 +1875,22 @@
         "CHANGED": "Changed by the server",
         "NO_LIVE_TOOLS": "The server lists no tools.",
         "PARAMS_TITLE": "Decide who fills each parameter",
-        "PARAMS_DESCRIPTION": "Markcopilot fills parameters from the conversation. Markcopilot does not see a parameter that Chatwoot fills, so a customer cannot change it.",
-        "NO_PARAMS": "No parameters. Markcopilot calls this tool as it is.",
+        "PARAMS_DESCRIPTION": "Captain fills parameters from the conversation. Captain does not see a parameter that Chatwoot fills, so a customer cannot change it.",
+        "NO_PARAMS": "No parameters. Captain calls this tool as it is.",
         "PARAM_COUNT": "{n} parameter | {n} parameters",
         "REQUIRED": "required",
         "SOURCES": {
-          "MODEL": "Markcopilot fills it",
+          "MODEL": "Captain fills it",
           "VERIFIED_EMAIL": "Verified email",
           "FIXED": "Fixed value"
         },
         "FIXED_PLACEHOLDER": "Value",
         "HINTS": {
-          "MODEL": "Markcopilot fills this from the conversation.",
+          "MODEL": "Captain fills this from the conversation.",
           "VERIFIED_EMAIL": "Chatwoot fills this with the email the customer verified with a one-time code.",
           "FIXED": "Chatwoot always sends this value.",
           "EMAIL": "This email is not verified. A customer could type someone else's.",
-          "ID": "Markcopilot fills this ID. A customer can pass any ID they know. Nothing checks that the record is theirs."
+          "ID": "Captain fills this ID. A customer can pass any ID they know. Nothing checks that the record is theirs."
         },
         "USE_VERIFIED_EMAIL": "Use verified email",
         "REQUIRE_VERIFICATION": "Require a verified email before this tool runs",
@@ -1899,7 +1899,7 @@
           "FINGERPRINT": "Fingerprint"
         },
         "SOURCE_SUMMARY": {
-          "MODEL": "Markcopilot",
+          "MODEL": "Captain",
           "VERIFIED_EMAIL": "verified email"
         },
         "BACK": "Back",
@@ -1915,9 +1915,9 @@
         "LIVE_VERSION": "Now on the server",
         "APPROVED_PARAMETERS": "Approved parameters",
         "LIVE_PARAMETERS": "Parameters now on the server",
-        "NOW_READ_ONLY": "The server now marks this tool as read-only. Markcopilot will also use it in reply suggestions and after a newer customer message.",
-        "NOW_WRITES": "The server now marks this tool as one that changes data. Markcopilot will no longer use it in reply suggestions.",
-        "CHANGE_WARNING": "Markcopilot does not use this tool until you approve the change. A server can use a description to steer Markcopilot. Approve only text you would write yourself.",
+        "NOW_READ_ONLY": "The server now marks this tool as read-only. Captain will also use it in reply suggestions and after a newer customer message.",
+        "NOW_WRITES": "The server now marks this tool as one that changes data. Captain will no longer use it in reply suggestions.",
+        "CHANGE_WARNING": "Captain does not use this tool until you approve the change. A server can use a description to steer Captain. Approve only text you would write yourself.",
         "APPROVE_CHANGE": "Approve change",
         "KEEP_OFF": "Keep turned off",
         "CHANGE_APPROVED": "Change approved.",
@@ -1937,7 +1937,7 @@
         },
         "TOOLS": {
           "TITLE": "Choose tools",
-          "DESCRIPTION": "Markcopilot uses only the tools you pick. Each one is pinned to the definition you see here. Descriptions come from the server.",
+          "DESCRIPTION": "Captain uses only the tools you pick. Each one is pinned to the definition you see here. Descriptions come from the server.",
           "SELECTED": "{selected} of {total} selected",
           "SELECT_ALL": "Select all tools",
           "CLEAR": "Clear selection",
@@ -1945,7 +1945,7 @@
         },
         "REVIEW": {
           "TITLE": "Review",
-          "DESCRIPTION": "Markcopilot starts using these tools in conversations as soon as you save.",
+          "DESCRIPTION": "Captain starts using these tools in conversations as soon as you save.",
           "NO_TOOLS": "No tools selected. Saving removes every tool from this server."
         },
         "ACTIONS": {
@@ -1986,7 +1986,7 @@
         "ERROR_MESSAGE": "There was an error deleting the FAQ, please try again."
       },
       "SUGGESTIONS_BANNER": {
-        "TITLE": "Markcopilot grouped recurring customer questions into FAQ suggestions.",
+        "TITLE": "Captain grouped recurring customer questions into FAQ suggestions.",
         "ACTION": "Review suggestions"
       },
       "FORM_DESCRIPTION": "Add a question and its corresponding answer to the knowledge base and select the assistant it should be associated with.",
@@ -2023,8 +2023,8 @@
         "SUBTITLE": "FAQs help your assistant provide quick and accurate answers to questions from your customers. They can be generated automatically from your content or can be added manually.",
         "CLEAR_SEARCH": "Clear active filters",
         "FEATURE_SPOTLIGHT": {
-          "TITLE": "Markcopilot FAQ",
-          "NOTE": "Markcopilot FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
+          "TITLE": "Captain FAQ",
+          "NOTE": "Captain FAQs detects common customer questions—whether missing from your knowledge base or frequently asked—and generates relevant FAQs to improve support. You can review each suggestion and decide whether to approve or reject it."
         }
       }
     },
@@ -2041,7 +2041,7 @@
       "SAVE": "Save changes",
       "DETAILS": {
         "TITLE": "Review FAQ suggestion",
-        "DESCRIPTION": "Markcopilot grouped {count} conversation into this suggestion. Review the evidence and refine the FAQ before approval. | Markcopilot grouped {count} conversations into this suggestion. Review the evidence and refine the FAQ before approval.",
+        "DESCRIPTION": "Captain grouped {count} conversation into this suggestion. Review the evidence and refine the FAQ before approval. | Captain grouped {count} conversations into this suggestion. Review the evidence and refine the FAQ before approval.",
         "SOURCES": "Source conversations",
         "SOURCE_PROGRESS": "{visible} of {total}",
         "NO_SOURCES": "No accessible source conversations were found.",
@@ -2053,7 +2053,7 @@
         "CLEAR_SEARCH": "Clear search"
       },
       "SUCCESS": {
-        "APPROVED": "FAQ approved and added to Markcopilot's knowledge.",
+        "APPROVED": "FAQ approved and added to Captain's knowledge.",
         "DISMISSED": "Suggestion dismissed.",
         "SAVED": "Suggestion updated."
       },

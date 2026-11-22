@@ -333,7 +333,7 @@
     "ACTIVE": "Active",
     "COMPANIES": "Companies",
     "ALL_COMPANIES": "All Companies",
-    "CAPTAIN": "Markcopilot",
+    "CAPTAIN": "Captain",
     "CALLS": "Calls",
     "CAPTAIN_ASSISTANTS": "Assistants",
     "CAPTAIN_OVERVIEW": "Overview",
@@ -432,7 +432,7 @@
     },
     "DOCS": "Read docs",
     "SECURITY": "Security",
-    "CAPTAIN_AI": "Markcopilot",
+    "CAPTAIN_AI": "Captain",
     "CONVERSATION_WORKFLOW": "Conversation Workflow"
   },
   "DATA_IMPORTS": {
@@ -618,11 +618,11 @@
     }
   },
   "CAPTAIN_SETTINGS": {
-    "TITLE": "Markcopilot Settings",
-    "DESCRIPTION": "Configure your AI models and features for Markcopilot. Markcopilot follows a credit based billing, you will be charged credits for every action Markcopilot takes based on the model selected.",
-    "LOADING": "Loading Markcopilot configuration...",
-    "LINK_TEXT": "Learn more about Markcopilot Credits",
-    "NOT_ENABLED": "Markcopilot is not enabled for your account. Please upgrade your plan to access Markcopilot features.",
+    "TITLE": "Captain Settings",
+    "DESCRIPTION": "Configure your AI models and features for Captain. Captain follows a credit based billing, you will be charged credits for every action Captain takes based on the model selected.",
+    "LOADING": "Loading Captain configuration...",
+    "LINK_TEXT": "Learn more about Captain Credits",
+    "NOT_ENABLED": "Captain is not enabled for your account. Please upgrade your plan to access Captain features.",
     "MODEL_CONFIG": {
       "TITLE": "Model Configuration",
       "DESCRIPTION": "Select AI models for different features.",
@@ -657,8 +657,8 @@
       }
     },
     "API": {
-      "SUCCESS": "Markcopilot settings updated successfully.",
-      "ERROR": "Failed to update Markcopilot settings. Please try again."
+      "SUCCESS": "Captain settings updated successfully.",
+      "ERROR": "Failed to update Captain settings. Please try again."
     }
   },
   "BILLING_SETTINGS": {
@@ -693,12 +693,12 @@
       "BUTTON_TXT": "Go to the billing portal"
     },
     "CAPTAIN": {
-      "TITLE": "Markcopilot",
-      "DESCRIPTION": "Manage usage and credits for Markcopilot AI.",
+      "TITLE": "Captain",
+      "DESCRIPTION": "Manage usage and credits for Captain AI.",
       "BUTTON_TXT": "Buy more credits",
       "DOCUMENTS": "Documents",
       "RESPONSES": "Credits",
-      "UPGRADE": "Markcopilot is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
+      "UPGRADE": "Captain is not available on the free plan, upgrade now to get access to assistants, copilot and more.",
       "REFRESH_CREDITS": "Refresh"
     },
     "CHAT_WITH_US": {
@@ -742,7 +742,7 @@
     "TOPUP": {
       "BUY_CREDITS": "Buy more credits",
       "MODAL_TITLE": "Buy AI Credits",
-      "MODAL_DESCRIPTION": "Purchase additional credits for Markcopilot AI.",
+      "MODAL_DESCRIPTION": "Purchase additional credits for Captain AI.",
       "CREDITS": "CREDITS",
       "ONE_TIME": "one-time",
       "POPULAR": "Most Popular",

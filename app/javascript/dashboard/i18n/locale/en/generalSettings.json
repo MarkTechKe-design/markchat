@@ -48,23 +48,23 @@
         "TITLE": "Translation",
         "NOTE": "Speak every customer's language, whatever languages your team knows.",
         "CAPTAIN": {
-          "TITLE": "Markcopilot",
+          "TITLE": "Captain",
           "NOTE": "Reads the whole conversation, so short replies like \"ok\" or \"gracias\" stay in the right language. Keeps your tone and formality.",
           "RECOMMENDED": "Recommended",
-          "BILLING": "Uses Markcopilot credits from your plan"
+          "BILLING": "Uses Captain credits from your plan"
         },
         "OTHER_PROVIDERS": "Use other providers",
         "GOOGLE": {
           "TITLE": "Google Translate",
           "NOTE": "Translates each message on its own, so short messages can be detected as the wrong language.",
           "BILLING": "Billed separately by Google on your Google Cloud account",
-          "SWITCH_BUTTON": "Switch to Markcopilot",
+          "SWITCH_BUTTON": "Switch to Captain",
           "NOT_CONNECTED": "Not connected",
           "CONNECT": "Connect",
           "NOT_CONNECTED_HINT": "Google Translate isn't connected yet."
         },
         "UPGRADE": {
-          "NOTE": "Upgrade to a paid plan to translate conversations with Markcopilot or Google Translate.",
+          "NOTE": "Upgrade to a paid plan to translate conversations with Captain or Google Translate.",
           "BUTTON": "Upgrade"
         },
         "AUTO_TRANSLATE": {
@@ -242,14 +242,14 @@
       "GO_TO_CONTACTS_DASHBOARD": "Go to Contacts Dashboard",
       "GO_TO_ACTIVE_CONTACTS": "Go to Active Contacts",
       "GO_TO_COMPANIES": "Go to Companies",
-      "GO_TO_CAPTAIN": "Go to Markcopilot",
-      "GO_TO_CAPTAIN_FAQS": "Go to Markcopilot FAQs",
-      "GO_TO_CAPTAIN_DOCUMENTS": "Go to Markcopilot Documents",
-      "GO_TO_CAPTAIN_SCENARIOS": "Go to Markcopilot Scenarios",
-      "GO_TO_CAPTAIN_PLAYGROUND": "Go to Markcopilot Playground",
-      "GO_TO_CAPTAIN_INBOXES": "Go to Markcopilot Inboxes",
-      "GO_TO_CAPTAIN_TOOLS": "Go to Markcopilot Tools",
-      "GO_TO_CAPTAIN_SETTINGS": "Go to Markcopilot Settings",
+      "GO_TO_CAPTAIN": "Go to Captain",
+      "GO_TO_CAPTAIN_FAQS": "Go to Captain FAQs",
+      "GO_TO_CAPTAIN_DOCUMENTS": "Go to Captain Documents",
+      "GO_TO_CAPTAIN_SCENARIOS": "Go to Captain Scenarios",
+      "GO_TO_CAPTAIN_PLAYGROUND": "Go to Captain Playground",
+      "GO_TO_CAPTAIN_INBOXES": "Go to Captain Inboxes",
+      "GO_TO_CAPTAIN_TOOLS": "Go to Captain Tools",
+      "GO_TO_CAPTAIN_SETTINGS": "Go to Captain Settings",
       "GO_TO_CALLS_DASHBOARD": "Go to Calls Dashboard",
       "GO_TO_CAMPAIGNS": "Go to Campaigns",
       "GO_TO_SMS_CAMPAIGNS": "Go to SMS Campaigns",

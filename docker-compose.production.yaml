@@ -3,9 +3,14 @@ version: '3'
 services:
   base: &base
     image: chatwoot/chatwoot:v4.20.1
-    env_file: .env ## Change this file for customized env variables
+    env_file: .env
     volumes:
       - storage_data:/app/storage
+      - ./config/initializers/markchat_subscription_enforcement.rb:/app/config/initializers/markchat_subscription_enforcement.rb:ro
+      - ./config/initializers/zz_markchat_community_lockdown.rb:/app/config/initializers/zz_markchat_community_lockdown.rb:ro
+      - ./public/markchat_theme.css:/app/public/markchat_theme.css:ro
+      - ./public/markchat_runtime.js:/app/public/markchat_runtime.js:ro
+      - ./public/brand-assets:/app/public/brand-assets:ro
 
   rails:
     <<: *base
@@ -44,7 +49,6 @@ services:
     environment:
       - POSTGRES_DB=chatwoot
       - POSTGRES_USER=postgres
-      # Please provide your own password.
       - POSTGRES_PASSWORD=
 
   redis:

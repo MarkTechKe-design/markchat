@@ -900,7 +900,7 @@
         "WRAP_UP_HELP": "Agents in wrap-up aren't rung; resolving the conversation also ends it.",
         "RECORD": "Record calls",
         "TRANSCRIBE": "Transcribe recordings",
-        "TRANSCRIBE_HELP": "Turned into text with Markcopilot and shown with the call. Needs recording on.",
+        "TRANSCRIBE_HELP": "Turned into text with Captain and shown with the call. Needs recording on.",
         "RECORD_HELP": "The recording is attached to the conversation."
       },
       "PLAY": "Play",
